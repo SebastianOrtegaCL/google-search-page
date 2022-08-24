@@ -65,11 +65,12 @@
             margin-top: 198px;
             max-height: 92px;"
             >
-                <img src="./images/google-icon.png" alt="">
+                <img src="google-icon.png" alt="">
             </div>
         </div>
         <div style="padding: 20px;
         min-width: 400px;
+        
         ">
             <form action="/search" role="search">
                 <div style="margin: 0 auto;
@@ -77,7 +78,8 @@
                 display: flex;
                 justify-content: center;
                 flex-direction: row;
-                flex-wrap: nowrap;"
+                flex-wrap: nowrap;
+                "
                 >
                     <div style="display: flex;
                     border-radius: 24px;
@@ -85,7 +87,11 @@
                     background-color: #fff;
                     width: 586px;
                     min-width: 358px;
-                    
+                    align-items: center;
+                    flex-wrap: nowrap;
+                    flex-direction: row;
+                    align-content: center;
+                    justify-content: center;
                     "
                     >
                         <div style="padding-right: 8px;
@@ -111,17 +117,89 @@
                                 width: 100%;
                                 background-color: transparent;
                                 outline: none;
-                                border: 1px solid red;"
+                                "
                                 >
                             </div>
                         </div>
                         <div>
-
+                            <div style="padding: 0px 8px;">
+                                <svg style="
+                                width: 24px;
+                                height: 24px;
+                                ">
+                                    <path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path>
+                                    <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+                                    <path fill="#fbbc05" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path>
+                                    <path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path>
+                                </svg>
+                            </div>
                         </div>
                     </div>
                 </div>
+
+                <div style="margin-top: 18px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;">
+                        <a href="#" class="a-center">Google Search</a>
+
+                        <a href="#" class="a-center">I'm Feeling Lucky</a>
+            </div>
             </form>
+
+            
+        </div>
+
+        <div style="display: flex;
+        margin-bottom: 24px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        margin-bottom: 24px;
+        flex-grow: 1;">
+            <div style="line-height: 28px;
+            color: #4d5156;
+            font-size: small;
+            font-family: arial,sans-serif;">Google offered in: <a href="#">Español (Latinoamérica)</a></div>
+
         </div>
     </main>
+    <!-- Footer -->
+    <footer>
+        <div>
+            <div style="padding: 15px 30px;
+            border-bottom: 1px solid #dadce0;
+            background-color: #F2F2F2;
+            color: #70757a;
+            font-family: arial,sans-serif;">
+                Chile
+            </div>
+        </div>
+        <div style="display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding: 0px 20px;
+        background-color: #F2F2F2;
+        
+        "
+        >
+            <div class="left">
+                <a href="#" class="a-footer">About</a>
+                <a href="#" class="a-footer">Advertising</a>
+                <a href="#" class="a-footer">Business</a>
+                <a href="#" class="a-footer">How Search works</a>
+            </div>
+            <div class="right">
+                <a href="#" class="a-footer">Privacy</a>
+                <a href="#" class="a-footer">Terms</a>
+                <a href="#" class="a-footer">Settings</a>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>
